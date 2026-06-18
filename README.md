@@ -205,30 +205,6 @@ data: {"type": "text", "content": "这是完整的"}
 data: {"type": "done"}
 ```
 
-## 开发指南
-
-### 环境要求
-
-- Flutter 3.44.2 (Dart 3.12.2)
-- JDK 17+
-- Android SDK 35
-- Gradle 9.1.0
-
-### 构建项目
-
-```bash
-# 克隆仓库
-git clone https://github.com/R3lyW1nd/QwenPaw-Android-APP.git
-cd QwenPaw-Android-APP
-
-# 获取依赖
-flutter pub get
-
-# 构建 APK
-flutter build apk --release --split-per-abi
-```
-
-构建产物位于 `build/app/outputs/flutter-apk/`。
 
 ## 注意事项
 
